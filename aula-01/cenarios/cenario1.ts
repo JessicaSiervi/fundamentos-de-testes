@@ -1,3 +1,6 @@
+//🛒 E-commerce (Cálculo de Frete e Cupom)Regra de Negócio: O frete é R$ 20,00 fixo. 
+//Se a compra passar de R$ 300,00, o frete é grátis. Cupons de 10% não se aplicam ao valor do frete.
+
 interface IPedido {
     valorProduto: number
     temCupom: boolean
